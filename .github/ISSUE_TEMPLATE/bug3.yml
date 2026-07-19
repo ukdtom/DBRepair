@@ -2,3 +2,8 @@ name: Bug Report 3
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
+body:
+  - type: markdown
+  attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
