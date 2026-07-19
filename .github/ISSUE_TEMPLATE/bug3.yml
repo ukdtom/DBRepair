@@ -11,16 +11,16 @@ body:
     - label: I have searched the existing issues
       required: true
 - type: dropdown
-    attributes:
-      label: What os are you seeing the problem on?
-      multiple: true
-      options:
-        - 'Apple Silicon (Arm64)'
-        - 'Apple X86_64'
-        - 'Linux Arm32 (ARMv7)'
-        - 'Linux Arm64 (ARMv8)'
-        - 'Linux X86_64'
-        - 'Windows X86_64'
+  attributes:
+    label: What os are you seeing the problem on?
+    multiple: false
+    options:
+      - Apple Silicon (Arm64)
+      - Apple X86_64
+      - Linux Arm32 (ARMv7)
+      - Linux Arm64 (ARMv8)
+      - Linux X86_64
+      - Windows X86_64
 - type: textarea
   attributes:
     label: Current Behavior
